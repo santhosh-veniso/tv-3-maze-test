@@ -22,7 +22,7 @@ body {
   transform:translate(-50%,-50%);
   perspective:400px;
   background:#222;
-  /* box-shadow:0 0 50px black; */
+  box-shadow:0 0 50px black;
 }
 #container:after {
   content:'Arrow keys to tilt maze';
@@ -78,7 +78,7 @@ body {
   border-radius:50%;
   box-sizing:border-box;
   border:1px solid var(--color);
-  /* animation:pulse 1.5s linear infinite; */
+  animation:pulse 1.5s linear infinite;
 }
 @keyframes pulse {
   0% { transform:scale(1); }
