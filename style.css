@@ -80,10 +80,10 @@ body {
   border:1px solid var(--color);
   /* animation:pulse 1.5s linear infinite; */
 }
-@keyframes pulse {
+/* @keyframes pulse {
   0% { transform:scale(1); }
   100% { transform:scale(2); opacity:0; }
-}
+} */
 
 .block {
   width:5%;
